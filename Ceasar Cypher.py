@@ -3,7 +3,7 @@
 #its not very secure,but as a basic i am giving a code which can help you to transform it,
 #also i am giving how it works
 #This cryptosystem is generally referred to as the Shift Cipher.
-#The concept is to replace each alphabet by another alphabet which is ‘shifted’ by some fixed number between 0 and 25.
+#The concept is to replace each alphabet by another alphabet which is â€˜shiftedâ€™ by some fixed number between 0 and 25.
 #which is called the key.
 #here is the code
 def ceasar(text,key):
@@ -45,6 +45,7 @@ def ceasar(text,key):
         else:
             x=x
             u =u + x
+            
     return u
 
         
